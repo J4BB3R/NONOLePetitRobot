@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>matrix.h</itemPath>
+      <itemPath>tools.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,6 +14,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Movement.c</itemPath>
+      <itemPath>Movement.h</itemPath>
       <itemPath>matrix.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -40,9 +43,15 @@
           <standard>10</standard>
         </cTool>
       </compileType>
+      <item path="Movement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Movement.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="matrix.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -66,9 +75,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Movement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Movement.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="matrix.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
